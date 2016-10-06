@@ -4,7 +4,9 @@
 
 本段代码实现由数据库文件（sql文件）来生成Java Mapper和POJO文件。
 
-注意修改generatorConfig.xml文件中的一些配置：
+注意：想要重新生成的话，需要将第一次生成的文件删除，因为第二次生成的文件不会覆盖第一次生成的问价，而是会在后面进行添加。
+
+还有，要注意修改generatorConfig.xml文件中的一些配置：
 
 ```java
 <generatorConfiguration>
