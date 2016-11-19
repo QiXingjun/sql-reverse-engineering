@@ -1,4 +1,4 @@
-# sql_reverse_engineering
+# sql-reverse-engineering
 
 ## 数据库逆向工程
 
